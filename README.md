@@ -1,1 +1,1 @@
-# EE559_Project
+# EE559_Project_Mushroom_Classification
