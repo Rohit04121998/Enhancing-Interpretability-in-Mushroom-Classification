@@ -1,1 +1,7 @@
-# EE559_Project_Mushroom_Classification
+# Enhancing Interpretability in Mushroom Classification: A Comparative Analysis of Multiple Machine Learning Models
+
+This comprehensive study delves into the efficacy of various classification models applied to the mushroom dataset, employing both standard and novel feature extraction methods. The research primarily focuses on three conventional feature extraction techniques, supplemented by a unique method centered around correlation analysis. The primary objective is to assess the performance of these models and to contrast the most effective traditional method with the correlation-based approach.
+
+The analysis uncovers a spectrum of performance across different models. The Trivial System and Naive Bayes models, for instance, demonstrated subpar effectiveness. On the other hand, more complex models like the Multi-Layer Perceptron (MLP), Random Forest (RF), and Support Vector Machine (SVM) showed significantly higher accuracy, with only slight variances in their performance metrics.
+
+Among these, the Random Forest model stood out, achieving an extraordinary accuracy of 99.907% and an F-1 score of 0.999 when utilizing the Univariate Feature Selection (UFS) method. This result highlights its robustness in handling the dataset with this particular feature extraction technique. In contrast, when the correlation method was employed, the SVM model emerged as the most effective, attaining an accuracy of 97.019% and an F-1 score of 0.973. This comparison not only underscores the strengths of each model but also validates the anticipated behavior of these algorithms in response to different feature extraction methods.
